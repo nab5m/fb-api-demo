@@ -15,6 +15,18 @@ body {
     margin: 0;
 }
 
+header {
+    background-color: #38d9a9;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    z-index: 10000;
+}
+
+#fb-page-container {
+    margin-top: 80px;
+}
 .fb-page-wrapper {
     width: calc(340px + 24px);
     max-width: 100%;
@@ -32,8 +44,4 @@ body {
 
 footer {
     color: white;
-}
-
-header {
-    background-color: #38d9a9;
 }
