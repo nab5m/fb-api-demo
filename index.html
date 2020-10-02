@@ -40,26 +40,32 @@
           {
             name: '고양이 갤러리',
             link: 'https://www.facebook.com/catgallery.net',
+            category: '동물 친구들',
           },
           {
             name: '고영히언냐',
             link: 'https://www.facebook.com/meowsister',
+            category: '동물 친구들',
           },
           {
             name: '애니멀 플레닛',
             link: 'https://www.facebook.com/animalplanet.co.kr',
+            category: '동물 친구들',
           },
           {
             name: 'SBS TV동물농장x애니멀봐',
             link: 'https://www.facebook.com/sbstvanimal',
+            category: '동물 친구들',
           },
           {
             name: '오늘 뭐 먹지?',
             link: 'https://www.facebook.com/GreedEat',
+            category: '일용할 양식',
           },
           {
             name: '귀여운 동물사전',
             link: 'https://www.facebook.com/%EA%B7%80%EC%97%AC%EC%9A%B4-%EB%8F%99%EB%AC%BC%EC%82%AC%EC%A0%84-107104977795818',
+            category: '동물 친구들',
           },
         ];
 
@@ -68,7 +74,10 @@
         for (var i=0; i < pages.length; i++) {
          $fbPageContainer.append(
            `<article class="fb-page-wrapper mt-4">
-            <h2 class="page-title py-4">${pages[i].name}</h2>
+            <div class="py-4">
+                <h2 class="page-title">${pages[i].name}</h2>
+                <p class="page-category">#${pages[i].category}</p>
+            </div>
             <div
                 class="fb-page"
                 data-href="${pages[i].link}"
