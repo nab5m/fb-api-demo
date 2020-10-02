@@ -22,6 +22,9 @@ body {
     box-shadow: 8px 8px 4px 0px rgba(0,0,0,0.2);
     border: 2px solid #38d9a9;
 }
+.page-title {
+    word-break: keep-all;
+}
 
 footer {
     color: white;
