@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: white;
+}
+
+body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+
+    padding: 0;
+    margin: 0;
+}
+
+.fb-page-wrapper {
+    width: calc(340px + 24px);
+    padding: 0 12px;
+    margin: 0 auto;
+    box-shadow: 8px 8px 4px 0px rgba(0,0,0,0.2);
+    border: 2px solid #38d9a9;
+}
+
+footer {
+    color: white;
+}
+
+header {
+    background-color: #38d9a9;
+}
