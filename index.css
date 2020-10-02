@@ -17,6 +17,7 @@ body {
 
 .fb-page-wrapper {
     width: calc(340px + 24px);
+    max-width: 100%;
     padding: 0 12px;
     margin: 0 auto;
     box-shadow: 8px 8px 4px 0px rgba(0,0,0,0.2);
